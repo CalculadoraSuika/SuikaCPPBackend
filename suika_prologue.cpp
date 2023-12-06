@@ -15,16 +15,16 @@ int main(){
 
     setlocale(LC_ALL, "pt_BR");
 
-    cout << "ola estudantes da fundacao Padre Saboia, como vao?\n";
-    cout << "meu nome é youkou, e nesta versao meu proposito é fazer calculos matriciais\n";
-    cout << "primeiramente me de as informacoes da matriz que vamos trabalhar\n";
+    cout << "ola estudantes da fundacao Padre Saboia, como vão?\n";
+    cout << "meu nome é youkou, e nesta versão meu proposito é fazer cálculos matriciais\n";
+    cout << "primeiramente me dê as informações da matriz que vamos trabalhar\n";
 
     for(int i=0; i<1; i){
-        cout << "me fale quantas linhas voce gostaria que sua matriz tenha\n";
+        cout << "me fale quantas linhas você gostaria que sua matriz tenha\n";
         cin >> linha;
-        cout << "me fale quantas colunas voce gostaria que sua matriz tenha\n";
+        cout << "me fale quantas colunas você gostaria que sua matriz tenha\n";
         cin >> coluna;
-        cout << "sua matriz possui " << linha << " linhas e " << coluna << " colunas?\n";
+        cout << "sua matriz possúi " << linha << " linhas e " << coluna << " colunas?\n";
         cin >> escolha;
         if(escolha == "sim"){
             cout << "compreendido\n";
@@ -38,14 +38,14 @@ int main(){
     matriz[linha][coluna];
     matriz2[linha][coluna];
     for(int k=0; k<1; k){
-        cout << "ok agora vamos colocar os numeros dentro dessa matriz\n";
+        cout << "ok agora vamos colocar os números dentro dessa matriz\n";
         for(int l=0; l<linha;l++){
             for(int c=0; c<coluna;c++){
                cin >> matriz[l][c];
             }
             cout << "digite a proxima linha\n";
         }
-        cout << "essa e a matriz que voce deseja?\n";
+        cout << "essa e a matriz que você deseja?\n";
         for(int l=0; l<linha;l++){
             for(int c=0; c<coluna;c++){
                cout << matriz [l][c];
@@ -66,7 +66,7 @@ int main(){
         }
     
 
-    cout << "oque voce gostaria de fazer hoje?\n";
+    cout << "oque você gostaria de fazer hoje?\n";
     cout << "[1] calcular o determinante de uma matriz?\n[2]multiplicar um escalar por uma matriz?\n[3]calcular a inversa de uma matriz?";
     cin >> escolha1;
     switch(escolha1){
